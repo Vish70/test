@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script
+            src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+        <link
+            href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+            rel="stylesheet" />
+        <link rel="stylesheet" href="css/style.css">
+        <title>chat page</title>
+    </head>
+    <body>
+
+        <div class="container_main">
+
+            <div class="fixed_nav">
+                <nav>
+                </nav>
+
+                <div class="arrow_i">
+                    <a href="#"><i class="ri-arrow-left-line"></i></a>
+                    <h1>Support Chat</h1>
+                </div>
+            </div>
+            <section>
+                <div action class="para">
+
+                    <p class="client">Hi Vishal,how can i help today </p>
+
+                    <p class="user">Hi I,have issues with my card.
+                        Can you help out?
+                    </p>
+
+                    <p class="client">Hi Vishal,how can i help today </p>
+
+                    <p class="user">Hi I,have issues with my card.
+                        Can you help out?
+                    </p>
+
+                    <p class="client">Hi Vishal,how can i help today </p>
+
+                    <p class="user">Hi I,have issues with my card.
+                        Can you help out?
+                    </p>
+
+                    <p class="client">Hi Vishal,how can i help today </p>
+
+                    <p class="user">Hi I,have issues with my card.
+                        Can you help out?
+                    </p>
+
+                    <p class="client">Hi Vishal,how can i help today </p>
+
+                    <p class="user">Hi I,have issues with my card.
+                        Can you help out?
+                    </p>
+
+                    <p class="client">Hi Vishal,how can i help today </p>
+
+                    <p class="user">Hi I,have issues with my card.
+                        Can you help out?
+                    </p>
+
+                    <p class="client">no </p>
+
+                    <p class="user">ook
+                    </p>
+                    <p class="client">Hi Vishal,how can i help today </p>
+
+                    <p class="user">Hi I,have issues with my card.
+                        Can you help out?
+                    </p>
+                    <p class="client">Hi Vishal,how can i help today </p>
+
+                    <p class="user">Hi I,have issues with my card.
+                        Can you help out?
+                    </p>
+                    <p class="client">Hi Vishal,how can i help today </p>
+
+                    <p class="user">Hi I,have issues with my card.
+                        Can you help out?
+                    </p>
+                    <p class="client">Hi Vishal,how can i help today </p>
+
+                    <p class="user">Hello
+                    </p>
+
+                    <p class="user">Hi I,have issues with my card.
+                        Can you help out?
+                    </p>
+                    <p class="client">Hi Vishal,how can i help today </p>
+                    <p class="user">Hi I,have issues with my card.
+                        Can you help out?
+                    </p>
+                    <p class="client">Hi Vishal,how can i help today </p>
+                    <p class="user">Hi I,have issues with my card.
+                        Can you help out?
+                    </p>
+                    <p class="client">...</p>
+                    <p class="user">?</p>
+                </div>
+
+                <div action class="inputfield">
+
+                    <textarea name="message" id="chat_input"
+                        placeholder="Send message"
+                        class="chat_input"></textarea>
+                    <div class="send_i">
+                        <i class="ri-send-plane-fill arro_icon"></i>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+            integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <script>
+
+            var chatInput = document.querySelector('textarea');
+            var chatbox = document.querySelector('.para');
+
+                chatInput.addEventListener('keyup',e =>{
+                chatInput.style.height = "25px";
+                var inputheight = e.target.scrollHeight;
+                chatInput.style.height = `${inputheight}px`;
+
+            //   if(chatInput.style.height === "25px"){
+            //     chatbox.style.marginBottom = "65px";
+            //     }
+
+                // if(chatInputval != ""){
+                //     $('.arro_icon').addClass('arrow_bottom');
+                // }else{
+                //     $('.arro_icon').removeClass('arrow_bottom');
+                // }
+            });
+
+</script>
+
+    </body>
+</html>
